@@ -1,0 +1,15 @@
+# python Temp
+__pycache__/
+*.py[cod]
+
+# PyInstaller 
+build/
+dist/
+*.spec
+
+# Virtual
+venv/
+.env
+
+# IDE
+.vscode/
