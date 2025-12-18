@@ -41,7 +41,8 @@ A stylish Windows desktop tool for real-time PC power monitoring, featuring the 
 ### 建置指令 (Build)
 使用 PyInstaller 打包 (包含圖片與 DLL)：
 ```bash
-py -m PyInstaller --onefile --noconsole --uac-admin --icon="icon.ico" --add-data "LibreHardwareMonitorLib.dll;." --add-data "character.png;." --add-data "icon.ico;." run.py```
+py -m PyInstaller --onefile --noconsole --uac-admin --icon="icon.ico" --add-data "LibreHardwareMonitorLib.dll;." --add-data "character.png;." --add-data "icon.ico;." run.py
+```
 
 ## ⚠️ 免責聲明 (Disclaimer)
 
@@ -67,4 +68,5 @@ This project uses the **LibreHardwareMonitor** library for hardware monitoring.
 ---
 **Author**: Aries Abriel Debrusc
 **Contact**: irosdp@gmail.com
+
 
