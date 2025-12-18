@@ -42,21 +42,28 @@ A stylish Windows desktop tool for real-time PC power monitoring, featuring the 
 使用 PyInstaller 打包 (包含圖片與 DLL)：
 ```bash
 py -m PyInstaller --onefile --noconsole --uac-admin --icon="icon.ico" --add-data "LibreHardwareMonitorLib.dll;." --add-data "character.png;." --add-data "icon.ico;." run.py
+## ⚠️ 免責聲明 (Disclaimer)
 
-⚠️ 免責聲明 (Disclaimer)
-估算性質：數值基於 CPU/GPU 傳感器回報之 DC 功耗 + 預設周邊 (50W) / 預設電源效率 (80%) 計算。
-物理限制：軟體無法偵測螢幕、喇叭等外部設備耗電，亦無法得知 PSU 實際轉換效率。
-僅供參考：實際電費請以台電帳單為準。
-📜 授權與致謝 (License & Credits)
-本專案授權 (Project License)
-本軟體採用 GNU General Public License v3.0 (GPLv3) 授權。
+1.  **估算性質**：數值基於 CPU/GPU 傳感器回報之 DC 功耗 + 預設周邊 (50W) / 預設電源效率 (80%) 計算。
+2.  **物理限制**：軟體無法偵測螢幕、喇叭等外部設備耗電，亦無法得知 PSU 實際轉換效率。
+3.  **僅供參考**：實際電費請以台電帳單為準。
+
+## 📜 授權與致謝 (License & Credits)
+
+### 本專案授權 (Project License)
+本軟體採用 **GNU General Public License v3.0 (GPLv3)** 授權。
 這是一份自由軟體，歡迎您在遵守 GPL 規範的前提下修改與分享。
-This software is licensed under the GNU GPLv3.
-第三方函式庫 (Third-Party Libraries)
-本軟體使用 LibreHardwareMonitor 進行硬體監控。
-This project uses the LibreHardwareMonitor library for hardware monitoring.
-Library: LibreHardwareMonitor
-License: Mozilla Public License 2.0 (MPL 2.0)
-Copyright: Copyright © LibreHardwareMonitor and Contributors.
-Author: Aries Abriel Debrusc
-Contact: irosdp@gmail.com
+This software is licensed under the **GNU GPLv3**.
+
+### 第三方函式庫 (Third-Party Libraries)
+本軟體使用 **LibreHardwareMonitor** 進行硬體監控。
+This project uses the **LibreHardwareMonitor** library for hardware monitoring.
+
+*   **Library**: [LibreHardwareMonitor](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor)
+*   **License**: Mozilla Public License 2.0 (MPL 2.0)
+*   **Copyright**: Copyright © LibreHardwareMonitor and Contributors.
+
+---
+**Author**: Aries Abriel Debrusc
+**Contact**: irosdp@gmail.com
+```
