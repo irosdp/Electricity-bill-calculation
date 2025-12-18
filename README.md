@@ -20,7 +20,7 @@ A stylish Windows desktop tool for real-time PC power monitoring, featuring the 
 *   **即時監測**：精準讀取 CPU 與 GPU 功耗 (Powered by LibreHardwareMonitor)。
 *   **電費試算**：
     *   即時換算累積電費 (TWD)。
-    *   **單日預估**：依照當前負載，推算掛機 24 小時所需電費。
+    *   **單日預估**：依照當前負載，推算掛網 24 小時所需電費。
 *   **聰明費率**：自動判斷台灣「夏月」(6-9月) 與「非夏月」建議電價。
 
 ## 🚀 下載與使用 (Download & Usage)
@@ -68,5 +68,6 @@ This project uses the **LibreHardwareMonitor** library for hardware monitoring.
 ---
 **Author**: Aries Abriel Debrusc
 **Contact**: irosdp@gmail.com
+
 
 
