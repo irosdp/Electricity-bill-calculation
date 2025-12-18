@@ -52,8 +52,6 @@ class PowerMonitorApp:
         self.root.title(f"簡易電腦電費監測儀 {APP_VERSION}")
         self.root.geometry("900x650")
         self.root.resizable(False, False)
-        
-        # --- 設定視窗圖示 (取代羽毛) ---
         self.set_window_icon() 
         # ---------------------------
 
@@ -219,13 +217,14 @@ class PowerMonitorApp:
         except:
             self.switch_theme("dark")
 
-    def show_about_window(self):
+def show_about_window(self):
         about_text = (
             f"簡易電腦電費監測儀\n"
             f"{APP_VERSION}\n\n"
             f"作者: {AUTHOR_NAME}\n"
             f"聯絡: {AUTHOR_EMAIL}\n\n"
-            f"Copyright © {COPYRIGHT_YEAR} All Rights Reserved.\n"
+            f"License: GNU GPL v3.0\n"
+            "此軟體為自由軟體，歡迎修改與發布。\n" 
             "Powered by LibreHardwareMonitor"
         )
         messagebox.showinfo("關於", about_text)
